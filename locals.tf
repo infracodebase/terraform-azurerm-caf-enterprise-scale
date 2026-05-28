@@ -1,4 +1,3 @@
-# locals.tf - defines shared local values used throughout the root module
 # The following block of locals are used to avoid using
 # empty object types in the code
 locals {

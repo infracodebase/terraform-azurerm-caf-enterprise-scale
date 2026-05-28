@@ -281,5 +281,3 @@ output "ama_user_assigned_identity" {
   value       = azurerm_user_assigned_identity.management
   description = "The user assigned identity for Azure Monitor Agent that is created by this module."
 }
-
-# End of outputs.tf
