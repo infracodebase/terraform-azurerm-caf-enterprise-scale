@@ -1,3 +1,6 @@
+# This module manages the connectivity landing zone, including hub networking,
+# VPN/ExpressRoute gateways, and peering configurations.
+
 # Configure Terraform to set the required AzureRM provider
 # version and features{} block
 
