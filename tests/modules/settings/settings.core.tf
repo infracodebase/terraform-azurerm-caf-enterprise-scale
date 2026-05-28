@@ -39,6 +39,7 @@ locals {
         }
         # The following policy has only a subset of mandatory parameters set using this input.
         # This is to prove that the defaults set in the policy assignment template are correctly merged.
+        # Note: only the storage prefix and RG name are provided here; remaining defaults come from the template.
         Deploy-HITRUST-HIPAA = {
           DeployDiagnosticSettingsforNetworkSecurityGroupsrgName        = "${var.root_id}-rg"
           DeployDiagnosticSettingsforNetworkSecurityGroupsstoragePrefix = var.root_id
